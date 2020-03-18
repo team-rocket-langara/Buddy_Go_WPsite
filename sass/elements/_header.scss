@@ -1,0 +1,64 @@
+.site-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2rem;
+    background-color: $purple;
+
+    *{
+        color: $white;
+        font-size: 1.25rem;
+    }
+
+    img{
+        margin: 1rem;
+    }
+
+    ul{
+        display: flex;
+        padding-left: 0;
+
+        li{
+            list-style-type: none;
+            margin-right: 2rem;
+
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+
+// Change the menu item color depends on the page
+.home{
+    .menu-item-14{
+        a{
+            color: $yellow;
+        }
+    }
+}
+
+.page-id-7{
+    .menu-item-15{
+        a{
+            color: $yellow;
+        }
+    }
+}
+
+.page-id-9{
+    .menu-item-16{
+        a{
+            color: $yellow;
+        }
+    }
+}
+
+.page-id-11{
+    .menu-item-17{
+        a{
+            color: $yellow;
+        }
+    }
+}

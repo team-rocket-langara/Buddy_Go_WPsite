@@ -1,0 +1,26 @@
+.page-id-9 .site-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-id-9 .site-main h3 {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+}
+
+.page-id-9 .site-main .wp-block-image {
+  -ms-flex-preferred-size: 70%;
+      flex-basis: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.page-id-9 .site-main .wp-block-image .wp-block-image {
+  max-width: 20%;
+  height: auto;
+}
+/*# sourceMappingURL=about.css.map */
