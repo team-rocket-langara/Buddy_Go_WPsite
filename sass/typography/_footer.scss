@@ -1,0 +1,21 @@
+// FOOTER ============================
+.site-footer{
+    *{
+        font-family: $SFC_Rounded;
+        color: $white;
+        font-weight: lighter;
+    }
+
+    #menu-footer{
+        li{
+            a{
+                text-decoration: none;
+                color: $white;
+            }
+
+            a:hover{
+                color: $red;
+            }
+        }
+    }
+}

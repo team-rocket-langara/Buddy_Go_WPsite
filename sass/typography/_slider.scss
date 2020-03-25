@@ -1,0 +1,23 @@
+// TOP SLIDER ==================================
+#metaslider-id-79{
+    .caption-wrap{
+        h2{
+            font-family: $SFC_Rounded;
+            color: $yellow;
+            font-size: 90px;
+            line-height: 90px;
+            font-weight: 500;
+
+            span{
+                color: white;
+            }
+        }
+
+        p{
+            font-family: $SFC;
+            font-size: 22px;
+            line-height: 30px;
+            font-weight: lighter;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+// DOWNLOAD =======================================================
+.category-download{
+    .entry-content{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        position: relative;
+        margin: 3rem 0;
+
+        // LOGO BACKGROUND IMG =====
+        .wp-block-image:first-of-type{
+            position: absolute;
+            z-index: -5;
+            right: -25%;
+            top: -50%;
+        }
+
+        // DOG IMG
+        figure{
+            margin: 0;
+        }
+
+        // "Download now..."
+        .wp-block-group__inner-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+
+            h2{
+                margin: 0;
+            }
+
+            p{
+                padding-left: 2rem;
+            }
+        }
+
+        // DOWNLOAD LINK
+        div.wp-block-image{
+            figure{
+                margin: 0 auto;
+            }
+        }
+}
+}

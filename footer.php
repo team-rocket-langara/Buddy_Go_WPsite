@@ -1,7 +1,11 @@
-            </main><!-- .site-main -->
+            </main>
+            <!-- END OF CONTENTS -->
 
+            <!-- FOOTER PART -->
             <footer class="site-footer">
-                <img src="<?php bloginfo('template_directory'); ?>/img/Buddy_Go_logo_footer_s.png" alt="A logo of Buddy,Go!">
+                <?php the_custom_logo( ); ?>
+
+                <h4>Developed by TEAM ROCKET</h4>
 
                 <?php wp_nav_menu(array(
                     'menu' => 'MAIN MENU',
@@ -10,8 +14,10 @@
                     'menu_class' => 'menu-footer menu',
                     'container' => 'nav',
                 )); ?>
+
             </footer>
-        </div><!-- .page -->
+
+        </div>
         <?php wp_footer(); ?>
     </body>
 </html>

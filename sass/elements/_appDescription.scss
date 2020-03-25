@@ -1,0 +1,62 @@
+// APP DESCRIPTION ==================================
+.category-appdescription{
+    margin-top: 5rem;
+
+    
+
+    // "A social media app..." + Mockup Img =====
+    .wp-block-group__inner-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 1rem;
+
+        max-width: 1440px;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        // "A social media app..."
+        .wp-block-group__inner-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+
+            h2{
+                margin: 0;
+                
+            }
+
+            p{
+                padding-left: 2rem;
+                width: 30vw;
+                
+            }
+        }
+
+        // Mockup Img
+        .wp-block-image{
+            margin-bottom: 0;
+        }
+    }
+
+    // "Buddy, Go! It’s free, local and super easy." =====
+    .wp-block-cover{
+        margin: 0;
+        position: relative;
+        min-height: 200px;
+
+        .wp-block-cover__inner-container{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+            h2,
+            p{
+                margin: 0;
+            }
+        }
+    }
+
+    
+}

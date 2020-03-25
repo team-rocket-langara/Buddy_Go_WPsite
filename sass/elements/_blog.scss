@@ -1,0 +1,40 @@
+// BLOG ==============================
+#blog{
+    margin: 2rem 4rem;
+
+    // 'Buddy News'
+    h2{
+      padding: 1rem;
+      margin: 0;
+    }
+
+    // BLOG POSTS
+    .blogPosts{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem;
+
+        article{
+            position: relative;
+
+            .attachment-post-thumbnail{
+                max-height: 425.5px;
+                object-fit: cover;
+                border-radius: 30px;
+            }
+
+            // CONTENT
+                .tags{
+                    a{
+                        background-color: $purple;
+                        padding: .5rem 1rem;
+                        border-radius: 10px;
+
+                        position: absolute;
+                        top: 30px;
+                        left: 30px;
+                    }
+                }
+            }
+    }
+}

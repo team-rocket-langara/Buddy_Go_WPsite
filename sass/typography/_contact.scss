@@ -1,0 +1,35 @@
+// CATEGORY ===============================
+.category-contact{
+    .entry-content{
+
+        // 'We Want To ....'
+        .wp-block-group{
+            h2{
+                font-family: $SFC_Rounded;
+                font-size: 90px;
+                line-height: 90px;
+            }
+
+            p{
+                font-family: $SFC;
+                font-size: 22px;
+                line-height: 30px;
+            }
+        }
+
+        // FORM
+        .nf-form-wrap{
+            .ninja-forms-field{
+                font-family: $SFC;
+                color: $black;
+
+            }
+            #nf-field-5{
+                color: $white !important;
+            }
+
+            .nf-error-msg{
+                font-family: $SFC;
+            }
+    }
+    }}
