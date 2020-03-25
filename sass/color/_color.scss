@@ -1,6 +1,7 @@
-$purple : #49006F;
-$yellow : #FFD23F;
-$blue : #20E9DD;
-$red : #EA526F;
-$lightGray : #F2F2F2;
-$white : #ffffff;
+@import 'header';
+@import 'heroImgs';
+@import 'features';
+@import 'download';
+@import 'aboutUs';
+@import 'contact';
+@import 'footer';

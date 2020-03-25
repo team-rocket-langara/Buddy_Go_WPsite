@@ -1,0 +1,46 @@
+// TOP SLIDER ==================================
+#metaslider-id-79{
+    // BACKGROUND IMG =====
+    img{
+        border-radius: 0 0 200px 200px;
+    }
+
+    // CAPTION =====
+    .caption-wrap{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background: transparent;
+        opacity: 1;
+        
+        .caption{
+            text-align: right;
+            grid-column: 2/3;
+            align-self: center;
+            max-width: 550px;
+
+            h2{
+                margin-bottom: 1rem; 
+            }
+
+            p{
+                margin-right: 2rem;
+            }
+        }
+    }
+
+    // THE DOTS
+    .flex-control-nav{
+        position: absolute;
+        bottom: 1rem;
+
+        a{
+            background: rgba($color: $white, $alpha: 0.5);
+
+            &.flex-active{
+                background: rgba($color: $white, $alpha: 1);
+            }
+        }
+    }
+}

@@ -7,3 +7,12 @@
 @import 'blog';
 @import 'contact';
 @import 'footer';
+
+
+html{
+    overflow: auto;
+
+    body{
+        overflow: hidden;
+    }
+}

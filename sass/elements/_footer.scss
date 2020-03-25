@@ -1,20 +1,25 @@
+// FOOTER ============================
 .site-footer{
     background-color: $purple;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-around;
 
+    // LOGO
+    .custom-logo{
+        max-width: 100px;
+    }
+
+
+    // MENU
     #menu-footer{
         list-style-type: none;
         display: flex;
 
         li{
             padding: .5rem 1rem;
-            border-right: solid 2px $white;
 
-            &:last-of-type{
-                border: none;
-            }
             
             a{
                 text-decoration: none;

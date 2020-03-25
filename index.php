@@ -1,11 +1,14 @@
-<?php
-    get_header( );
+<?php 
 
-    // MAIN CONTENT COMES IN HERE
-	 if ( have_posts() ) : while ( have_posts() ) : the_post();
-        the_content();
-        endwhile; 
-        endif;
+get_header(); 
 
-    get_footer( );
-?>
+if ( have_posts() ) :
+  while ( have_posts() ) :
+    the_post();
+    get_template_part('parts/blog/templates/content');
+  endwhile;
+  else :
+    get_template_part('parts/blog/templates/content-none.php');
+endif;  
+
+get_footer();

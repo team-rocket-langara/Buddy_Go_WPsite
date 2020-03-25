@@ -1,0 +1,54 @@
+// FEATURES =================================
+.features{
+    display: flex;
+    padding: 3rem 5rem;
+    justify-content: center;
+
+    article{
+        flex-basis: 20%;
+        margin: 1rem;
+        display: flex;
+        transition: flex-basis .5s linear .1s;
+
+        
+        
+        // IMG
+        img{
+            max-width: 279px;
+            max-height: 602px;
+        }
+
+        // CONTENT
+        .entry-content{
+            position: absolute !important;
+            height: 1px; 
+            width: 1px;
+            overflow: hidden;
+            clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+            clip: rect(1px, 1px, 1px, 1px);
+            white-space: nowrap; /* added line */
+            opacity: 0;
+            
+
+            display: flex;
+
+            p{
+                align-self: center;
+                margin: 2rem;
+            }
+        }
+
+        &:hover{ 
+            flex-basis: 50%;
+
+            .entry-content{
+                position: relative !important;
+                white-space: normal;
+                height: 100%; 
+                width: 100%;
+                opacity: 1;
+                transition: opacity .7s linear .6s, height .001s linear .5s, width .001s linear .5s;
+            }
+        }
+    }
+}

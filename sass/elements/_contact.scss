@@ -1,0 +1,50 @@
+// CATEGORY ===============================
+.category-contact{
+    margin: 0 8rem;
+    padding: 10rem 0;
+
+    .entry-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        // 'We Want To ....'
+        .wp-block-group{
+            display: flex;
+            flex-direction: column;
+
+            h2{
+                margin: 0;
+            }
+
+            p{
+                margin: 1rem 3rem 
+            }
+        }
+
+        // FORM
+        .nf-form-wrap{
+            .nf-form-fields-required{
+                display: none;
+            }
+
+            .ninja-forms-field{
+                border-radius: 55.7px;
+                border: solid 1px #d1d1d1;
+                background: $white;
+            }
+
+            #nf-field-3{
+                border-radius: 23px;
+            }
+
+            #nf-field-5{
+                display: block;
+                margin: 0 auto;
+                width: 192.1px;
+                height: 47.7px;
+                border-radius: 55.7px;
+                background-color: $red;
+            }
+        }
+    }
+}

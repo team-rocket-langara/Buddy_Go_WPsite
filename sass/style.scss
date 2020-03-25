@@ -1,10 +1,12 @@
 @import 'variables/variables';
-@import 'typography/typography';
 @import 'color/color';
-@import 'elements/header';
-@import 'elements/footer';
+@import 'elements/elements';
+@import 'layout/layout';
 
-@import 'layout/about';
+@import 'typography/typography';
+
+
+
 
 body{
     margin: 0;
@@ -12,6 +14,6 @@ body{
 }
 
 *{
-    max-width: 100vw;
+    max-width: 100%;
     height: auto;
 }

@@ -1,0 +1,29 @@
+// APP DESCRIPTION ==================================
+.category-appdescription{
+
+    // "A social media app..." =====
+    .wp-block-group__inner-container{
+        h2{
+            font-family: $SFC_Rounded;
+            font-size: 5rem;
+            line-height: 5rem;
+
+        }
+
+        p{
+            font-family: $SFC;
+            font-size: 22px;
+            line-height: 30px;
+        }
+    }
+
+    // "Buddy, Go! It’s free, local and super easy." =====
+    .wp-block-cover{
+
+        .wp-block-cover__inner-container{
+            font-family: $SFC_Rounded;
+            font-size: 3.5rem;
+        }
+    }
+}
+
