@@ -16,7 +16,6 @@
                 endwhile;
                 else :
                 get_template_part('parts/blog/templates/content-none.php');
-            endif;  
-        ?>
+            endif; ?>
     </div>
 </div>

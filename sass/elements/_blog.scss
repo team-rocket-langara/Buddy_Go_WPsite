@@ -1,11 +1,10 @@
 // BLOG ==============================
 #blog{
-    margin: 2rem 4rem;
-
+    padding: 5% 10%;
+    
     // 'Buddy News'
     h2{
-      padding: 1rem;
-      margin: 0;
+      margin: 0 0 3rem 0;
     }
 
     // BLOG POSTS
@@ -16,9 +15,10 @@
 
         article{
             position: relative;
-
+            
             .attachment-post-thumbnail{
-                max-height: 425.5px;
+                max-width: 100%;
+                height:372.31px;
                 object-fit: cover;
                 border-radius: 30px;
             }
@@ -35,6 +35,14 @@
                         left: 30px;
                     }
                 }
+
+            // READ MORE Button
+            button{
+                background-color: transparent;
+                border: none;
+                display: block;
+                margin: 0 0 0 auto;
             }
+        }
     }
 }

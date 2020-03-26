@@ -1,12 +1,12 @@
-@import 'variables/variables';
-@import 'color/color';
-@import 'elements/elements';
-@import 'layout/layout';
+/*
+Theme Name: Buddy, Go!
+Author: Team Rocket
+Description: This is a WordPress website theme developed spicifically for Buddy, Go! by Team Rocket.
+Version: 1.0
+Tags: custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+*/
 
-@import 'typography/typography';
-
-
-
+@import 'normalize';
 
 body{
     margin: 0;
@@ -17,3 +17,11 @@ body{
     max-width: 100%;
     height: auto;
 }
+
+@import 'variables/variables';
+@import 'elements/elements';
+@import 'typography/typography';
+
+
+
+

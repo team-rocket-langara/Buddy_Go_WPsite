@@ -1,8 +1,23 @@
+p{
+    font-family: $SFC;
+    font-weight: 300;
+    font-size: 1.37rem;
+    line-height: 1.3636;
+    color: #333333;
+}
+
+h2{
+    font-family: $SFC_Rounded;
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: 1.125;
+    color: $purple;
+}
+
+
 @import 'header';
 @import 'slider';
-@import 'appDescription';
 @import 'features';
-@import 'download';
 @import 'team';
 @import 'blog';
 @import 'contact';
