@@ -1,22 +1,26 @@
 // TEAM ==============================================
 .category-aboutus{
     background-image: url(imgs/aboutUs/background.png);
-    height: 550px;
-    padding: 6rem 3rem;
+    height: 44rem;
+    position: relative;
 
     // 'Our Team'
     h2{
-        margin: 0 0 2rem 5rem;
+        margin: 0;
+        padding: 5% 10%;
     }
 
     // TEAM MEMBERS
     .blocks-gallery-grid{
         width: 100%;
+        display: flex;
         flex-wrap: nowrap;
-        justify-content: space-between;
+        justify-content: space-evenly;
 
         li{
-            margin: 2rem;
+            margin: 1rem;
+            max-width: 9.6rem;
+            max-height: 9.6rem;
 
             &:nth-of-type(2n+1){
                 margin-bottom: 8rem;
@@ -29,6 +33,9 @@
             // NAME AND ROLE FOR MEMBER
             .blocks-gallery-item__caption{
                 background: none;
+                position: absolute;
+                bottom: -8rem;
+
 
                 strong{
                     display: inline-block;

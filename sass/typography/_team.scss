@@ -1,28 +1,19 @@
 // TEAM ==============================================
 .category-aboutus{
-    // 'Our Team'
-    h2{
-        font-family: $SFC_Rounded;
-        font-size: 90px;
-    }
-
     // NAME AND ROLE FOR MEMBER
     .blocks-gallery-grid{
         .blocks-gallery-item__caption{
-            position: absolute;
-            bottom: -120px;
-
             font-family: $SFC;
-            font-size: 20px;
+            font-size: 1.15rem;
+            font-weight: 300;
             color: $black;
-            letter-spacing: -0.3px;
-            line-height: 24px;
 
             strong{
                 font-family: $SFC_Rounded;
-                font-size: 31px;
+                font-size: 2rem;
+                font-weight: 500;
                 color: $red;
-                line-height: 31px;
+                line-height: 1;
             }
         }
     }

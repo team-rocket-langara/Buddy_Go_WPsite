@@ -1,14 +1,11 @@
 // APP DESCRIPTION ==================================
 .category-appdescription{
-    margin-top: 5rem;
-
     
-
     // "A social media app..." + Mockup Img =====
     .wp-block-group__inner-container{
+        padding: 10% 10% 0 10%;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        padding: 0 1rem;
 
         max-width: 1440px;
         left: 0;
@@ -21,6 +18,7 @@
             flex-direction: column;
             justify-content: center;
             height: 100%;
+            padding: 0 0 4rem 0;
 
             h2{
                 margin: 0;
@@ -37,6 +35,8 @@
         // Mockup Img
         .wp-block-image{
             margin-bottom: 0;
+            overflow: visible;
+            transform: scale(1.8);
         }
     }
 

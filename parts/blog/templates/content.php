@@ -40,4 +40,8 @@
     <?php the_tags('', ' ', ''); ?>
   </div>
 
+  <?php if( !is_single() ) : ?>
+        <button><a href="<?php the_permalink(); ?>">READ MORE</a></button>
+  <?php endif ?>
+
 </article>
